@@ -81,7 +81,7 @@ for x in range(0, numberofdirectories):
 images = np.array(images)
 Classno = np.array(Classno)
 
-
+print("Total Images Found ", len(images))
 # print(Classno.shape)
 # print(images.shape)
 
